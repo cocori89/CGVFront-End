@@ -1,0 +1,120 @@
+/*reset*/
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*헤드 부분*/
+
+header {
+    background-color: #fafafa;
+}
+
+.head {
+
+}
+
+/*최상단 서비스 바  - 로그인 앱설치등 있음*/
+.main-service {
+    width: 980px;
+    margin: auto;
+	
+}
+
+.main-service-left {
+    height: 30px;
+}
+/*--왼쪽*/
+.main-service-left {
+    float: left;
+}
+
+.main-service-left li {
+    float: left;
+    display: block;
+}
+/*--오른쪽*/
+.main-service-right {
+    float: right;
+}
+
+.main-service-right li {
+    float: right;
+    display: block;
+    border-right: black 1px solid;
+    font-size: 100%;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.main-service-right li:nth-of-type(1) {
+	border-right: none;
+}
+
+/*>>메인 네비 게이션<<*/
+.main-nav-outer {
+	background-image:url("../img/bg_header.gif");
+    background-repeat: repeat-x;
+}
+
+.main-nav {
+    clear: both;
+    width: 980px;
+    margin: auto;
+    display: flex;
+}
+/*--CGV로고*/
+.main-nav h1 img{
+    flex-grow: 1;
+    padding: 35px; 
+    height: 50px;
+}
+/*--메인 네비게이션 */
+.main-nav-mid {
+	flex-grow: 3;
+    text-align: center;
+}
+.main-nav-mid img {
+	padding-top: 29px;
+}
+
+.main-nav-mid li ul{
+    margin: -5px;
+    display: flex;
+}
+
+.main-nav-mid li li {
+	flex-grow: 1;
+}
+
+.main-nav-mid a{
+    font-weight: bold;
+    font-size: 20px;
+	color: black;
+}
+/*--CGV 영화 검색*/
+.main-nav-right {
+    padding-top: 65px;
+}
+
+
+/*>>이미지<<*/
+.header-banner{
+    width: 980px;
+	margin: auto;
+}
+
+
+
+/*나중에 스마트폰*/
+
+@media (max-width:500px) {
+    h1 {
+        display: none;
+    }
+}
