@@ -233,23 +233,28 @@ header {
 /*>>notice<<*/
 
 /*나중에 스마트폰*/
+.notice-outer-outer {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222222;
+	
+}
 .notice-outer {
 	display: flex;
-    height: 20px;
+    height: 21px;
     width: 980px;
     overflow: hidden;
-    border-bottom: 3px solid #222222;
 }
 .notice {
-    border: 1px solid #e0e0e0;
     height: 20px;
-    width: 870px;
+    width: 865px;
     padding-top: 5px;
 }
 .notice-outer h3{
     height: 20px;
+    width: 120px;
     margin-right: 15px;
 }
+/*------------------------------footer 부분---------------------*/
 
 
 @media (max-width:500px) {
