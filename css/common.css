@@ -10,12 +10,15 @@
 /*헤드 부분*/
 
 header {
-    background-color: #fafafa;
+    background-color: #fffbef;
 }
 
 .head {}
 
 /*최상단 서비스 바  - 로그인 앱설치등 있음*/
+
+body{
+}
 
 .main-service {
     width: 980px;
@@ -123,7 +126,10 @@ header {
 
 
 /*------------- content 부분--------------------*/
+.contant {
+	    background-color: #fffbef;
 
+}
 .slider {
     background-image: url(../img/bg_c_bricks.png)
 }
@@ -231,9 +237,6 @@ header {
 }
 
 /*>>notice<<*/
-
-/*나중에 스마트폰*/
-
 .notice-outer-outer {
     padding-bottom: 10px;
     border-bottom: 3px solid #222222;
@@ -262,6 +265,9 @@ header {
 /*------------------------------footer 부분---------------------*/
 
 /*특수 상영관 종류*/
+footer div{
+	 background-color: #fffbef;
+}
 
 .sect-smuse {
     margin-top: -4px;
@@ -449,6 +455,9 @@ header {
     width: 100%;
     background-position: 0 -134px;
 }
+
+
+/*나중에 스마트폰 설정 할때*/
 @media (max-width:500px) {
     h1 {
         display: none;
