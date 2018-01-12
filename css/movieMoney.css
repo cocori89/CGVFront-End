@@ -1,0 +1,103 @@
+.contant {
+	width: 980px;
+    margin: auto;
+}
+/*제목*/
+.money-title {
+	padding: 20px 0 5px;
+    border-bottom: solid 4px #241d1e;
+}
+.money-title h3{
+	display: inline;
+    font-size: 35px;
+    font-weight: bold;
+}
+/*무비머니에 대한 간단한 설명*/
+.money-explantion {
+	padding: 20px 0;
+}
+.money-explantion p:first-child{
+	font-weight: bold;
+}
+/*무비머니 종류*/
+.money-contents {
+	width: 980px;
+}
+.money-contents ul li{
+    float: left;
+    text-align: center;
+}
+.money-contents span{
+	font-size: 15px;
+    font-weight: bold;
+}
+.clear-money{
+	clear: both;
+}
+.money-table td:last-child{
+    padding: 5px 10px;
+}
+.money-table p{
+    font-weight: bold;
+    padding: 20px;
+} 
+.money-table caption{
+    font-weight: bold;
+    border-bottom: solid 2px #cacac1;
+}
+.money-table tr:last-child{
+    border: solid 1px #cccccc;
+}
+
+/*무비머니컨텐츠*/
+.mm-title {
+	font-size: 32px;
+    font-weight: bold;
+    border-bottom: 4px solid #241d1e;
+}
+.mm-content {
+	display: flex;
+    align-items: center;
+}
+.mm-content table{
+    
+}
+.mm-content table td{
+    padding: 10px;
+}
+.mm-content table tr td:first-child{
+    font-weight: bold;
+}
+.mm-content table tr:first-child td:first-child,.mm-content table tr:last-child {
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid #cacac1;
+}
+.mm-content table tr:nth-child(2){
+    border-bottom: 2px dashed #cacac1;
+}
+/*상품이용안내*/
+.mm-explantion {
+}
+.mm-explantion span{
+    display: block;
+	font-weight: bold;
+    border-bottom: 2px solid #241d1e;
+    padding: 10px;
+}
+.mm-explantion li{
+	margin:10px 20px;
+    list-style: disc;
+}
+/*기프티콘 이용순서*/
+.mm-step>ul{
+	display: flex;
+}
+.mm-step>ul>li{
+    flex-grow: 1;
+}
+.mm-step>ul>li li:nth-child(3){
+    font-weight: bold;
+}
+
+

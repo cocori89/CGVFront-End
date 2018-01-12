@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>관리 시스템 로그인 </title>
+    <link rel="icon" href="img/cjcl.png">
+</head>
+<body>
+ <h1><a href="adIndex"><img src="img/cgvlogo.png" alt="로그 이미지"></a></h1>
+ <h2>(목동)(1관)사영 시간표</h2>
+ <form action="">
+ <table>
+     <tr>
+         <td>사이트</td>
+         <td><input type="text" value="목동1" name="site"></td>
+     </tr>
+     <tr>
+         <td>날짜</td>
+         <td><input type="date" value="2017-12-20" name="date"></td>
+     </tr>
+     <tr>
+         <td>차수</td>
+         <td><input type="number" name="order"></td>
+     </tr>
+     <tr>
+         <td>시작 시간</td>
+         <td><input type="time" name="start" value="02:10" ></td>
+     </tr>
+     <tr>
+         <td>영화정보</td>
+         <td>
+             <select name="movie" id="">
+                 <option value=""></option>
+             </select>
+         </td>
+     </tr>
+     <tr>
+         <td>종료 시간</td>
+         <td><input type="text" name="end"></td>
+     </tr>
+     <tr>
+         <td colspan="2">
+             <input type="submit" value="등록">
+             <input type="button" value="취소">
+         </td>
+     </tr>
+ </table>
+ </form>
+</body>
+</html>

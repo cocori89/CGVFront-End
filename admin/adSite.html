@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>관리 시스템 로그인 </title>
+    <link rel="icon" href="img/cjcl.png">
+</head>
+
+<body>
+    <h1><a href="adIndex"><img src="img/cgvlogo.png" alt="로그 이미지"></a></h1>
+    <h2>사이트 관리</h2>
+    <h3><a href="adSiteInset">사이트 등록</a></h3>
+    
+    <form action="adSite" method="post">
+        <input type="text" placeholder="사이트 코드(이름)로 찾기" name="code">
+        <input type="submit" value="사이트 검">
+    </form>
+
+    <table>
+        <tr>
+            <th>사이트 코드</th>
+            <th>전화번호</th>
+            <th>주소</th>
+            <th>관개수</th>
+            <th>점장</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>목동</td>
+            <td>2144-8784</td>
+            <td>서울시 양천구 목동 현대아파트 지하 3층</td>
+            <td>8개 관</td>
+            <td>고지용</td>
+            <td><a href="adSiteUpte">수정</a><a href="">삭제</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>

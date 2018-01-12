@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>관리 시스템 로그인 </title>
+    <link rel="icon" href="img/cjcl.png">
+</head>
+<body>
+ <h1><a href="adIndex"><img src="img/cgvlogo.png" alt="로그 이미지"></a></h1>
+ <h2>공지사항 수정</h2>
+
+    <form action="adNoticeUpdate" method="post">
+        <table>
+            <tr>
+                <td>제목</td>
+                <td><input type="text" name="title" value=""></td>
+            </tr>
+            <tr>
+                <td>종류</td>
+                <td>
+                    <select name="kind" id="">
+                        <option value="">시스템</option>
+                        <option value="">이벤트</option>
+                        <option value="">기타</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>중요공지사항 등록</td>
+                <td>
+                    <select name="use" id="">
+                        <option value="">일반 공지사항</option>
+                        <option value="">중요 공지사항</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>내용</td>
+                <td><textarea name="content"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="공지사항 수정">
+                    <input type="button" value="취소하기" onclick="javascript:location.href='adNotice'">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
